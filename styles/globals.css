@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: cabinetLight;
+    src: url('../public/fonts/CabinetGrotesk-Light.otf');
+}
+@font-face {
+    font-family: cabinetExtraLight;
+    src: url('../public/fonts/CabinetGrotesk-Extralight.otf');
+}
+@font-face {
+    font-family: PanchangBold;
+    src: url('../public/fonts/Panchang-Bold.otf');
+}
+@font-face {
+    font-family: PanchangExtraBold;
+    src: url('../public/fonts/Panchang-Extrabold.otf');
+}
+
+body {
+    @apply bg-[#191815] text-[#ffffe3];
+}
